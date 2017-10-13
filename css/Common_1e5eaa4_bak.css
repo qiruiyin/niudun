@@ -11,14 +11,11 @@
 }
 
 body,html {
-    position: relative;
-    min-width: 1280px;
     /*font-family: '黑体','微软雅黑','宋体'*/
     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
 }
 
 .top {
-
     width: 100%;
     height: 35px;
     overflow: hidden;
@@ -57,7 +54,7 @@ body,html {
 
 .Content {
     background: #F9F9F9;
-    padding-top: 135px
+    margin-top: 135px
 }
 
 .Topul {
@@ -277,8 +274,7 @@ footer {
 }
 
 footer .CWinth {
-    font-size: 0;
-    padding-left: 20px;
+    font-size: 0
 }
 
 footer .CWinth div {
