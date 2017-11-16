@@ -1,0 +1,612 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:iconfont;src:url(//at.alicdn.com/t/font_1467950080_0210867.eot);src:url(//at.alicdn.com/t/font_1467950080_0210867.eot?#iefix) format('embedded-opentype'),url(//at.alicdn.com/t/font_1467950080_0210867.woff) format('woff'),url(//at.alicdn.com/t/font_1467950080_0210867.ttf) format('truetype'),url(//at.alicdn.com/t/font_1467950080_0210867.svg#iconfont) format('svg')
+}
+
+.iconfont {
+    font-family: iconfont;
+    font-size: 16px;
+    font-style: normal
+}
+
+body,html {
+    position: relative;
+    min-width: 1280px;
+    /*font-family: '黑体','微软雅黑','宋体'*/
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.top {
+
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    vertical-align: top;
+    background: #343434;
+    color: #989898
+}
+
+.CWinth {
+    width: 1280px;
+    margin: 0 auto
+}
+
+.CWinth h2 {
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+    margin: 70px 0 50px;
+    font-weight: 100
+}
+
+.CWinth h2 span {
+    color: #d84b46
+}
+
+.CWinth>p {
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+    line-height: 1.75;
+    /*font-size: 14px;
+    line-height: 25px;*/
+    padding: 0 140px;
+    margin-bottom: 80px
+}
+
+.Content {
+    background: #F9F9F9;
+    padding-top: 135px
+}
+
+.Topul {
+    list-style: none;
+    text-align: right;
+    margin-top: 10px;
+    height: 15px;
+    line-height: 15px;
+    width: 100%
+}
+
+.Topul li {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.Topul li:last-child {
+    border-right: 2px solid #989898;
+    padding-right: 20px
+}
+
+header {
+    box-shadow: 0 2px 2px #999;
+    margin-bottom: 5px
+}
+
+.headnav {
+    height: 100px;
+    position: relative;
+    text-align: right
+}
+
+.headnav img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    cursor: pointer
+}
+
+.headnav ul {
+    display: inline-block;
+    height: 100px;
+    width: 800px;
+    font-size: 0
+}
+
+.headnav ul li {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    width: 115px;
+    font-size: 16px;
+    text-align: center
+}
+
+.headnav ul a {
+    color: #4d4d4d;
+    text-decoration: none;
+    cursor: pointer;
+    width: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.headnav ul a:hover,.headnav ul .active {
+    border-bottom: 2px solid #d84b46
+}
+
+.headnav div {
+    display: inline-block;
+    /*height: 100px;*/
+    width: 300px;
+    font-size: 0
+}
+
+.headnav div span, .headnav div a {
+    font-size: 14px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.headnav div .TMoney {
+    background: #d84b46;
+    color: #fff
+}
+
+.headnav div .Tjinxuan {
+    background: #ccc;
+    color: #333;
+    margin-left: 2px
+}
+
+.bannaer {
+    position: relative
+}
+
+.bannaer .bantitle {
+    position: absolute;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-640px,-150px);
+    text-align: center
+}
+
+.bannaer .bantitle h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 400
+}
+
+.bannaer .bantitle p {
+    color: #fff;
+    /*line-height: 20px;*/
+    margin: 30px
+}
+
+.bannaer .bantitle span a {
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-top: 20px
+}
+
+.hongkong {
+    width: 100%;
+    height: 100%;
+    background: #F9F9F9;
+    position: relative;
+    padding-bottom: 1px
+}
+
+.IconGroup {
+    position: absolute;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-640px,-120%);
+    text-align: center;
+    overflow: hidden
+}
+
+.IconGroup h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 40px
+}
+
+.Tabimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-35px);
+    width: 80%
+}
+
+.Tabimg img {
+    display: none
+}
+
+.Tabimg img:first-child {
+    display: block
+}
+
+.ul6 {
+    font-size: 0;
+    list-style: none;
+    text-align: center
+}
+
+.ul6 li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    width: 14%;
+    cursor: pointer
+}
+
+.ul6 img {
+    -moz-transition: transform .3s;
+    -webkit-transition: transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    transform-origin: center center
+}
+
+.ul6 img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.all {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 300px
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    background: #343434;
+    color: #989898;
+    overflow: hidden
+}
+
+footer .CWinth {
+    font-size: 0;
+    padding-left: 20px;
+}
+
+footer .CWinth div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    width: 33%;
+    vertical-align: bottom;
+    height: 150px;
+    padding-top: 30px
+}
+
+footer .CWinth .banquan {
+    width: 250px
+}
+
+footer .CWinth p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 26px
+}
+
+footer .CWinth .bottel {
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 5px
+}
+
+footer .CWinth .bottel i {
+    color: #fff
+}
+
+footer .CWinth .BotAbout {
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+footer .CWinth ul {
+    font-size: 0;
+    list-style: none
+}
+
+footer .CWinth ul li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    width: 20%;
+    cursor: pointer;
+    text-align: center
+}
+
+footer .CWinth ul i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #5b5b5b;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    color: #adadad;
+    font-size: 30px;
+    text-align: center;
+    line-height: 46px;
+    background: #5b5b5b url("../img/footer-qq.png") no-repeat;
+    background-position: center;
+}
+
+footer .CWinth ul i.qq {
+	background-image: url("../img/footer-qq.png");
+}
+footer .CWinth ul i.weixin {
+	background-image: url("../img/footer-weixin.png");
+}
+footer .CWinth ul i.weibo {
+	background-image: url("../img/footer-weibo.png");
+}
+footer .CWinth ul i.star {
+	background-image: url("../img/footer-star.png");
+}
+footer .CWinth ul p {
+    text-align: center;
+    color: #fff
+}
+
+#about,#team,#join,#call {
+    position: relative
+}
+
+#about div,#team div,#join div,#call div {
+    position: absolute
+}
+
+.abouttitle {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-640px);
+    text-align: left
+}
+
+.abouttitle h1 {
+    font-size: 34px;
+    line-height: 3;
+    /*font-size: 25px;*/
+    /*line-height: 70px;*/
+    color: #fff;
+    padding: 0 140px;
+    /*font-family: '微软雅黑'*/
+}
+
+.abouttitle p {
+    color: #fff;
+    /*line-height: 25px;*/
+    line-height: 1.75;
+    /*font-size: 14px;*/
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    /*font-family: '宋体'*/
+}
+
+.teamtitle {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-640px)
+}
+
+.teamtitle h1 {
+    font-size: 25px;
+    line-height: 70px;
+    color: #000;
+    padding: 0 140px;
+    /*font-family*/: '微软雅黑'
+}
+
+.teamtitle h6 {
+    font-size: 18px;
+    padding: 0 140px
+}
+
+.teamtitle p {
+    text-align: left;
+    font-size: 16px;
+    /*line-height: 20px;*/
+    margin-top: 15px
+}
+
+.jointitle {
+    width: 600px;
+    padding-right: 80px;
+    padding-left: 600px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-640px)
+}
+
+.jointitle h1 {
+    font-size: 25px;
+    line-height: 70px;
+    color: #000;
+    padding: 0 140px;
+    font-family: '微软雅黑'
+}
+
+.jointitle p {
+    text-align: left;
+    line-height: 1.75;
+    /*line-height: 20px;*/
+    margin-top: 5px;
+    font-size: 16px;
+    color: #343434
+}
+
+.jointitle .mgb {
+    margin-bottom: 30px;
+    font-size: 14px
+}
+
+.calltitle {
+    width: 600px;
+    padding-left: 80px;
+    padding-right: 600px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-640px)
+}
+
+.calltitle h1 {
+    font-size: 25px;
+    line-height: 70px;
+    color: #000;
+    /*font-family*/: '微软雅黑'
+}
+
+.calltitle>img {
+    margin: 10px 5px 10px 0
+}
+
+.calltitle img {
+    vertical-align: sub;
+    margin-right: 5px
+}
+
+.calltitle p {
+    line-height: 30px;
+    font-size: 16px
+}
+
+.calltitle .font12 {
+    font-size: 12px;
+    line-height: 20px
+}
+
+.onav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    z-index: 999
+}
+
+.inav {
+		position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    z-index: 999
+}
+
+.download {
+    position: relative;
+}
+.download img {
+    display: block;
+}
+.download-content {
+    position: absolute;;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.download-text {
+    float: left;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.download-content h5 {
+    font-style: normal;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.download-content h5 span {
+    font-size: 14px;
+    padding: 0 10px;
+    margin-left: 20px;
+    background: #53b7fb;
+    display: inline-block;
+    line-height: 22px;
+    border-radius: 6px;
+}
+
+.download-content h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.download-content p {
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.download-img {
+    float: left;
+    width: 400px;
+    margin-left: 70px;
+}
+
+.download-btn {
+    margin-top: 20px;
+}
+
+.download-btn a {
+    position: relative;
+    width: 210px;
+    height: 50px;
+    margin-top: 180px;
+    font-size: 26px;
+    margin-right: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    text-indent: 40px;
+    display: inline-block;
+    background: #51d7f0 no-repeat;
+    background-position: 50px 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.download-btn .download-ios {
+    background-image: url('../img/ios.png');
+}
+
+.download-btn .download-android {
+    background-image: url('../img/android.png');
+}
+
+.download-btn .download-ios:before, .download-btn .download-android:before {
+    content: "";
+    position: absolute;
+    top: -180px;
+    left: 0;
+    right: 0;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background: url("../img/qrcode-ios.png") no-repeat;
+    background-size: 100%;
+}
+
+.download-btn .download-android:before {
+    background-image: url("../img/qrcode-android.png") no-repeat;
+}

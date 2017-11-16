@@ -1,0 +1,69 @@
+  @charset"utf-8";
+
+//引用定义
+
+.lh(@i:25px){height:@i;line-height:@i;}
+.hw(@i:30px,@y:50px){height:@i;width: @y}
+.wid(@i:100%){width:@i;}
+.border(@i:1px,@x:solid,@y:#eaeaea){border:@arguments;}
+.borderb(@i:1px,@x:solid,@y:#eaeaea){border-bottom:@arguments;}
+.bordert(@i:1px,@x:solid,@y:#eaeaea){border-top:@arguments;}
+.box-shadow(@shadow: 0px 0px 5px #eaeaea) {-webkit-box-shadow: @shadow;-moz-box-shadow: @shadow;box-shadow: @shadow;}
+.bora(@radius:5px) { -moz-border-radius: @radius; -webkit-border-radius: @radius; border-radius: @radius; } 
+
+.tac(){ text-align: center;}
+.tal(){text-align: left;}
+.tar(){ text-align: right;}
+
+.dib(){ display:inline-block;}
+.dn(){ display:none;}
+.db(){display: block;}
+.oh(){ overflow:hidden;}
+.di(){display: inline;}
+
+.ar(){ text-align:right;}
+.al(){ text-align:left;}
+.ac(){ text-align:center;}
+
+.pa(){ position:absolute;}
+.pr(){ position:relative;}
+.pf(){ position:fixed;}
+
+.tl(@t:0px,@l:0px){ top:@t; left:@l;}
+.bl(@b:0px,@l:0px){ bottom:@b; left:@l;}
+.tr(@t:0px,@r:0px){ top:@t; right:@r;}
+.br(@b:0px,@r:0px){ bottom:@b; right:@r;}
+
+
+.mgt(@t:10px){margin-top:@t;}
+.mgb(@b:10px){margin-bottom:@b;}
+.mgl(@l:10px){margin-left:@l;}
+.mgr(@r:10px){margin-right:@r;}
+.mg1(@g:10px){margin:@g;}
+.mg(@g:10px,@m:5px){margin:@g @m;}
+
+.pat(@t:10px){padding-top:@t;}
+.pab(@b:10px){padding-bottom:@b;}
+.pal(@l:10px){padding-left:@l;}
+.par(@r:10px){padding-right:@r;}
+.p1(@p:10px){padding: @p}
+.p(@p:10px,@a:5px){padding: @p @a}
+
+.filter(@i:10px){
+    -webkit-filter: blur(@i);
+    -moz-filter: blur(@i);
+    -ms-filter: blur(@i);    
+    filter: blur(@i);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=@i, MakeShadow=false);
+}
+
+.scaleY(@i:.5){-webkit-transform:scaleY(@i); -moz-transform:scaleY(@i); -ms-transform:scaleY(@i); transform:scaleY(@i); }
+.scaleX(@i:.5){-webkit-transform:scaleY(@i); -moz-transform:scaleY(@i); -ms-transform:scaleY(@i); transform:scaleY(@i);}
+//处理浮动
+.fz(){font-size:0px;};
+.ofn(){display:inline-block;vertical-align:top; font-size: 14px;}
+.ofl(@i:14px,@y:49.5%){display:inline-block;vertical-align:top;font-size:@i;width:@y;}
+.ofh(@i:14px,@y:49.5%,@z:30px){display:inline-block;vertical-align:top;font-size:@i;width:@y;height:@z;}
+
+                                     
+

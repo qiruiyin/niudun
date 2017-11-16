@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Your title">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/index.css">
+  <script>
+    function IsPC() {
+      var userAgentInfo = navigator.userAgent;
+      var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+      var flag = true;
+      for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false;
+          break;
+        }
+      }
+      return flag;
+    }
+
+    if(IsPC()) {
+      location.href = 'download.html';
+    }
+  </script>
+</head>
+<title>牛顿金融App下载</title>
+<link rel="stylesheet" href="./lib/swiper/dist/css/swiper.min.css">
+<body>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    	<h2>资金安全</h2>
+    	<p>资金在本人账户，银行级别安全保障</p>
+    	<img src="./img/banner1.png" alt="">
+    </div>
+    <div class="swiper-slide">
+    	<h2>稳健投资</h2>
+    	<p>足不出户，资产配置全球</p>
+    	<img src="./img/banner2.png" alt="">
+    </div>
+    <div class="swiper-slide">
+    	<h2>期限灵活</h2>
+    	<p>投资期限短至一周，资金可随时转出</p>
+    	<img src="./img/banner3.png" alt="">
+    </div>
+    <div class="swiper-slide">
+      <h2>专业团队</h2>
+      <p>资深投资经理坐镇，精选最高回报风险产品</p>
+      <img src="./img/banner4.png" alt="">
+    </div>
+    <div class="swiper-slide download">
+      <h3>牛顿金融客户端</h3>
+      <h2>专业海外理财平台</h2>
+      <p>实时跟踪海外市场，精选优质资产；盈透证券、花旗银行托管，账户100%安全</p>
+      <div class="btns">
+        <a class="btn" href="https://itunes.apple.com/us/app/%E7%89%9B%E9%A1%BF%E9%87%91%E8%9E%8D2017/id1215507036?mt=8">iPhone</a>
+        <a class="btn" href="http://a.app.qq.com/o/simple.jsp?pkgname=com.newton.finance">Android</a>
+      </div>
+    </div>
+  </div>
+  <!-- 如果需要分页器 -->
+  <div class="swiper-pagination"></div>
+  
+  <!-- 如果需要滚动条 -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<script src="./lib/swiper/dist/js/swiper.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    loop: false,
+    
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // 如果需要滚动条
+    scrollbar: '.swiper-scrollbar',
+  })        
+</script>
+</body>
+</body>
+</html>
