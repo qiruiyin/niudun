@@ -608,5 +608,5 @@ footer .CWinth ul p {
 }
 
 .download-btn .download-android:before {
-    background-image: url("../img/qrcode-android.png") no-repeat;
+    background-image: url("../img/qrcode-android.png");
 }
